@@ -1,0 +1,29 @@
+.product{
+    background-color: white;
+    border-radius: 2px;
+    padding: 15px;
+    margin: 10px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.product_rating{
+    width: fit-content;
+    color: rgb(255, 187, 0);
+    padding: 5px 0;
+}
+.product_image{
+    object-fit: contain;
+    object-position: center center;
+    margin: 10px 0;
+}
+.product_addToCart{
+    display: block;
+    padding: 0 5px ; 
+    background-color: orange;
+    border:1px solid;
+    border-color: orange #b47400 #794e00;
+    margin: 10px auto;
+}

@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    background-color: rgb(24, 25, 34);
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    height: 52px;
+    overflow: hidden;
+}
+.header_amazon_logo{
+    width: 120px;
+    padding: 5px 3vw 0 0px;
+}
+.header_search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header_searchIcon{
+    background-color: #ffc559;
+    height: 100%!important;
+    width: 50px!important;
+    padding: 2px 3px!important;
+    color: #524f4f;
+}
+.header_searchInput{
+    width: 100%;
+    line-height: 35px;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.header_option{
+    display: block;
+    color: white;
+    padding: 5px;
+}
+.header_optionChild{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+.hearder_optionLineOne{
+    font-size: 12px;
+    font-weight: 500;
+    width: fit-content;
+}
+.header_optionLineTwo{
+    font-size: 16px;
+    font-weight: 800;
+    width: fit-content;
+}
+.header_optionLineTwo:hover,
+.header_optionLineOne:hover {
+    text-decoration: none;
+    text-decoration-color:transparent ;
+}
+.header_optionBasket{
+    display: flex;
+    flex-direction: column;
+}
+.header_basket{
+    font-size: 42px;
+}
+.header_basketCount{
+    color: orange;
+}
+input{
+    outline: none;
+}
+.main_menu{
+    color: white;
+    margin: 0 8px 0 5px;
+    border: 1px solid rgb(141 140 140);
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+}
+.main_menu:hover{
+    border-color:white;
+}

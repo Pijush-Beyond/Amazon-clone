@@ -1,10 +1,74 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.unreload_link{
+  text-decoration: none;
+}
+img{
+  cursor: pointer;
+}
+a,.link{
+  color: #007ed2;
+  text-decoration: none;  
+}
+a:hover,.link:hover{
+  color:#E47911;
+  text-decoration: underline;
+}
+a.withoutDecoration:hover{
+  color: white;
+  text-decoration: none;
+}
+input,select,button{
+  outline: none;
+}
+input[type='checkbox'],
+input[type='radiobutton'],
+input[type='checkbox']+label,
+input[type='radiobutton']+label,button{
+  cursor: pointer;
+}
+.flex_rowCenterBetween{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_rowCenterEvenly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex_rowCenterAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex_rowStart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flex_colmunEvenly {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex_colmunStart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #eaeded; */
 }
 
 code {

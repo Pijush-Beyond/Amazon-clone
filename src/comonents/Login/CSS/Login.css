@@ -1,0 +1,196 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px;
+    width: 100%;
+    background-color: white;
+    height: fit-content;
+    position: relative;
+}
+.login_logo{
+    width: 103px!important;
+}
+.amazon_logoContainer:after {
+    content: '.in';
+    margin: 0 0 5px 4px;
+    font-size: 13px
+}
+.amazon_logoContainer{
+    display: flex;
+    align-items: center;
+}
+.login_container{
+    border: 1px solid #dfdfdf;
+    padding: 20px 36px;
+    width: 348px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.login_shadow{
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    border-radius: 15%;
+    z-index: -1;
+    box-shadow: 0 0 8px -2px #b5b5b5
+}
+
+.username_container>label,
+.username_container> div{
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 18px 0 5px;
+}
+.username_container input{
+    padding: 3px 7px;
+    width: 100%;
+    margin: 0 0 10px;
+    box-shadow: 0 0 1px 0px #c2bebe inset;
+    border: 1px solid #9e9e9e;
+    border-radius: 3px;
+    line-height: 23px;
+}
+.username_container input:focus,
+.username_container select:focus{
+    border: 1px solid #ecb13d;
+    box-shadow: 0 0 3px 0 #d81812c9;
+}
+.username_container button{
+    box-shadow: 0 0 3px 0 #d81812c9;
+}
+.login_submit{
+    width: 100%!important;
+    margin: 5px 0 10px;
+}
+.login_conditions{
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+.login_collapsable{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 13px;
+    padding-left: 12px;
+    height: 0;
+    line-height: 21px;
+}
+.login_collapsable>*{
+    width: fit-content;
+}
+.login_needHelp {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 13px;
+    width: fit-content;
+}
+.arrow {
+    margin-left: -7px!important;
+    font-size: 19px!important;
+    transition: 0.3s transform!important;
+    color: #5f5f5f;
+}
+.login_new{
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    width: 348px;
+    text-align: center;
+    margin: 5px 0 15px
+}
+.login_new>span{
+    background-color: white;
+    padding: 0 5px;
+} 
+.login_new::after{
+    content: "";
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+.login_newUser{
+    width: 348px;
+    padding: 6px 0;
+    margin: 0 0 15px;
+}
+.warning{
+    object-fit: none;
+    width: 32px;
+    height: 27px;
+    object-position: -246px -35px;
+    transform: scale(1.1)
+}
+.login_warning{
+    display: flex;
+    width: 348px;
+    border: 1px solid #df4d4d;
+    box-shadow: 0 0 4px 2px #c7373780 inset;
+    padding: 14px;
+    border-radius: 5px;
+    margin: 25px 0 0;
+}
+.warning_message{
+    padding: 0 17px;
+}
+.warning_label{
+    color: #be0202;
+    font-size: larger;
+    font-weight: 500;
+}
+.actual_message{
+    font-size: 13px;
+}
+.username_display{
+    margin: 15px 0 5px;
+    font-size: 13px;
+}
+.username_container>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stay_login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 13px;
+}
+.stay_login>span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 68px;
+}
+.stay_login>input{
+    margin: 0 8px 0 0;
+}
+.stay_login svg{
+    transform: rotateZ(90deg);
+}
+.passwordNote{
+    font-size: 12px;
+}
+.passwordNote::before{
+    content: '';
+    background-image: url(/static/media/Amazon_smallpngs.1b5a1fb0.png);
+    height: 15px;
+    width: 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -163px -128px;
+    vertical-align: bottom;
+    background-size: 400px 750px
+}
