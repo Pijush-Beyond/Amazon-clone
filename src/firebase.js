@@ -12,8 +12,7 @@ import 'firebase/firebase-firestore'
 // });
 
 
-
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(require("./firebasekey.json"));
 const auth = firebase.auth();
 const db = firebaseApp.firestore();
 
